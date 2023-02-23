@@ -1,0 +1,162 @@
+/* NOSOTROS*/
+
+body#nosotrosPage{
+    text-align: center;
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/images/w-watermark-covers/poliurea-spray-apli.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-origin: content-box;
+    overflow-y: scroll;
+    background-position-y: -350px;
+    text-align: center;
+
+}
+
+.nosotrosh2Text{    
+    position: absolute;
+    left: 770px;
+    top: 145px;
+    text-shadow: 7px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 0px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+
+.nosotrosContainer{
+    display: grid;
+    grid-template-columns: repeat(auto, 100px);
+    grid-template-rows: repeat(15, 100px);
+
+}
+
+.nosotrosPages1{
+    grid-column: 1 / 21;
+    grid-row: 3 / 8;
+    margin-bottom: 5%;
+    background: white;
+
+}
+
+
+
+.nosotrosText1{
+    position: absolute;
+    width: 1350px;
+    height: 300px;
+    left: 500px;
+    top: 220px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    text-align: left;
+}
+
+
+.imageGragusstandmanguera{
+    position: absolute;
+    width: 400px;
+    height: 275px;
+    left: 50px;
+    top: 250px;
+    background: url(../assets/images/stand-costa-salguero/299648_299147036777689_506336137_n.jpg);
+    border-radius: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-position: center center;
+
+}
+
+
+.nosotrosPages2{
+    grid-column: 1 / 21;
+    grid-row: 8 / 15;
+    margin-bottom: 4.5%;
+    background: white;
+
+}
+
+
+.nosotrosText2{
+    position: absolute;
+    width: 1300px;
+    height: 309px;
+    left: 500px;
+    top: 725px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    text-align: left;
+}
+
+
+.imageGragusstandmanguera2{
+    position: absolute;
+    width: 400px;
+    height: 275px;
+    left: 50px;
+    top: 835px;
+    background: url(../assets/images/stand-costa-salguero/299648_299147036777689_506336137_n.jpg);
+    border-radius: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-position: center center;
+
+}
+
+
+.footerBoxnosotros{
+    grid-column: 1 / 21;
+    grid-row: 15 / 15;
+    background: #FFFFFF;
+}
+
+.gragusTextallrightsnosotros{
+    position: absolute;
+    width: 375px;
+    height: 10px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    top: 1445px;
+    right: 25px;
+
+}
+
+.footerLogonosotros{
+    position: absolute;
+    background-image: url(../assets/images/gragus-logo-pistol.jpg);
+    width: 56px;
+    height: 55px;
+    background-size: 56px 55px;
+    background-repeat: no-repeat;
+    top: 1425px;
+    right: 1775px;
+}
