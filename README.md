@@ -4,5 +4,6 @@ Proyecto de sitio web para Gragus Sudamerica.
 "productos.html" y "nosotros.html" esta totalmente hecho con Grids, las demás páginas estan hechas con Flexbox y un poco de Grids
 
 new entry: correccion de los archivos css, ahora hay uno solo.
-new entry: update, se agregó un carousel de imgs
+
+new entry: update, se agregó un carousel de imgs, no contiene @media
 
