@@ -967,7 +967,7 @@ body#nosotrosPage{
     height: 275px;
     left: 50px;
     top: 250px;
-    background: url(../assets/images/stand-costa-salguero/299648_299147036777689_506336137_n.jpg);
+    background: url(../assets/images/stand-costa-salguero/carrusel/equipo_2.jpg);
     border-radius: 40px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1008,7 +1008,7 @@ body#nosotrosPage{
     height: 275px;
     left: 50px;
     top: 835px;
-    background: url(../assets/images/stand-costa-salguero/299648_299147036777689_506336137_n.jpg);
+    background: url(../assets/images/stand-costa-salguero/carrusel/equipo_2.jpg);
     border-radius: 40px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1221,10 +1221,29 @@ body#contactoPage{
 
 /*GALERIA BODY STARTS*/
 body#galeriaPage{
-    background-color: #000000;
+    text-align: center;
+    position: relative;
     width: auto;
-    height: auto ;
+    display:flex;
+    flex-direction: column;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-origin: content-box;
+    overflow-y: scroll;
+    background-position-y: -350px;
+    text-align: center;
     
 }
 /*GALERIA BODY ENDS*/
 
+/*GALERIA MAIN STARTS*/
+.carousel-inner{
+    width: 1440px;
+    height: 720px;
+    position: absolute;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
